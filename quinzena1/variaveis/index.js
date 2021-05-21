@@ -65,9 +65,9 @@ let b = 25
 
 // Aqui faremos uma lógica para trocar os valores
 let c
-b = c  // b sem valor
-a = b //a vale 25
-c = a
+c = b  // c com valor 25
+b = a // b vale 10
+a = c // 25
 
 
 
