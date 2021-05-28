@@ -86,15 +86,18 @@ function checaStringsMesmoTamanho() {
   // escreva seu código aqui
   const string1 = prompt('Digite algo')
   const string2 = prompt('Digite algo novamente')
-  const larguradastring =  string1.length
-  const larguradastring2 = string2.length
-  const comparador = larguradastring.localeCompare(larguradastring2)
+ const comparacao1 = string1.length
+ const comparacao2 = string2.length
+ console.log( comparacao1 == comparacao2)
   
 }
 
 // Exercício 9
 function checaIgualdadeDesconsiderandoCase() {
   // escreva seu código aqui
+  const string1 = prompt('Digite algo')
+  const string2 = prompt('Digite algo novamente')
+  console.log( string1 = string2)
   
 }
 
