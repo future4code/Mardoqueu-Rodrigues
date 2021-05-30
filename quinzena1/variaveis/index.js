@@ -51,7 +51,7 @@
 //console.log(typeof idade)
 //console.log("Meu nome é,",nome, "tenho ",idade,)
 
-let homem = prompt("você é homem?")
+/*let homem = prompt("você é homem?")
 let mulher = prompt("você é mulher?")
 let brazil = prompt("você é do Brazil?")
 console.log("você é homem?" ,homem)
@@ -73,4 +73,11 @@ a = c // 25
 
 // Depois de trocados, teremos o seguinte resultado:
 console.log("O novo valor de a é", a) // O novo valor de a é 25
-console.log("O novo valor de b é", b) // O novo valor de b é 10
+console.log("O novo valor de b é", b) // O novo valor de b é 10 */
+
+let idade = prompt("Você tem mais de 18 anos, sim ou não?")
+let ensinomedio = prompt("Você tem ensino médio, sim ou não?")
+let horarios = prompt("Você tem disponibilidade de horario, sim ou não?")
+   
+  console.log(idade)
+

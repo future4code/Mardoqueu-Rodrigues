@@ -48,7 +48,7 @@ function imprimeInformacoesUsuario() {
   const idade = prompt('Digite qual e sua idade')
   const email = prompt('Digite qual e o seu email')
 
-  console.log("Meu nome é "+nome+ ", tenho " +idade+ " anos, e o meu email é "+email+ ".")
+  console.log("Meu nome é " + nome + ", tenho " + idade + " anos, e o meu email é " + email + ".")
 }
 
 // Exercício 5
@@ -57,7 +57,7 @@ function imprimeTresCoresFavoritas() {
   const cor2 = prompt('Digite qual e sua cor favorita 2')
   const cor3 = prompt('Digite qual e sua cor favorita 3')
 
-  console.log(["" +cor1, cor2, cor3 +""])
+  console.log(["" + cor1, cor2, cor3 + ""])
 }
 
 // Exercício 6
@@ -83,7 +83,7 @@ function checaStringsMesmoTamanho() {
   const comparacao1 = string1.length
   const comparacao2 = string2.length
 
-  console.log(comparacao1 == comparacao2)
+  console.log(comparacao1 === comparacao2)
 }
 
 // Exercício 9
@@ -96,10 +96,9 @@ function checaIgualdadeDesconsiderandoCase() {
 
 // Exercício 10
 function checaRenovacaoRG() {
-  // escreva seu código aqui
-  let anoatual = Number(prompt('Digite ano em que estamos'))
-  let nascimento = Number(prompt('Digite ano em que nasceu'))
-  let ctpsemitida = Number(prompt('Digite ano em que sua ctps foi emitida'))
+  const anoatual = Number(prompt('Digite ano em que estamos'))
+  const nascimento = Number(prompt('Digite ano em que nasceu'))
+  const ctpsemitida = Number(prompt('Digite ano em que sua ctps foi emitida'))
 
   const idade = anoatual - nascimento
   const renovarctps = anoatual - ctpsemitida 
@@ -113,8 +112,7 @@ function checaRenovacaoRG() {
 
 // Exercício 11
 function checaAnoBissexto() {
-  // escreva seu código aqui
-  let anoqualquer = Number(prompt("Digite um ano para saber se é bisexto ou nao"))
+  const anoqualquer = Number(prompt("Digite um ano para saber se é bisexto ou nao"))
   const multiplo400 = anoqualquer % 400 === 0
   const multiplo4 = anoqualquer % 4 === 0
   const multiplo100 = anoqualquer % 100 === 0
@@ -124,19 +122,9 @@ function checaAnoBissexto() {
 
 // Exercício 12
 function checaValidadeInscricaoLabenu() {
-  // escreva seu código aqui
-  let idade = Boolean(prompt("Você tem mais de 18 anos, sim ou não?")) 
-  let ensinomedio = Boolean(prompt("Você tem ensino médio, sim ou não?"))
-  let horarios = Boolean(prompt("Você tem disponibilidade de horario, sim ou não?"))
-   
-  console.log(idade ==sim && ensinomedio ==sim && horarios ==sim || !idade)
+  const idade = prompt("Você tem mais de 18 anos, sim ou não?")
+  const ensinomedio = prompt("Você tem ensino médio, sim ou não?")
+  const horarios = prompt("Você tem disponibilidade de horario, sim ou não?")
 
-  // todos negativos = negativos
-  // um negativo vai ser negativo
-  // um positivo vai ser negativo
-  // todos positivo positivos-
-
-
-
-
+  console.log(idade === "sim" && ensinomedio === "sim" && horarios === "sim")
 }
